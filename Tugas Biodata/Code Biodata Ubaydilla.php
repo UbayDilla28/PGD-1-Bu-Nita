@@ -91,9 +91,7 @@
             --secondary: #C41E3A;
             --accent: #6E260E;
             --text: #1a202c;
-            
-            /* Efek Kaca (Glassmorphism) */
-            --card-bg: rgba(255, 255, 255, 0.85); /* Putih transparan 85% */
+            --card-bg: rgba(255, 255, 255, 0.85); 
             --glass-blur: 10px;
             --highlight: #0f0000;
         }
@@ -107,11 +105,10 @@
 
         body {
             /* --- KODE BACKGROUND GAMBAR --- */
-            background-image: url('bg.jpg'); /* Pastikan file bg.jpg ada di folder yg sama */
-            background-size: cover;           /* Gambar memenuhi layar */
-            background-position: center;     /* Posisi gambar di tengah */
-            background-attachment: fixed;    /* Gambar diam saat di-scroll (efek parallax) */
-            
+            background-image: url('bg.jpg'); 
+            background-size: cover;        
+            background-position: center;    
+            background-attachment: fixed;
             color: var(--text);
             line-height: 1.6;
             min-height: 100vh;
@@ -137,7 +134,7 @@
             font-weight: bold;
             padding: 8px 16px;
             border-radius: 20px;
-            transition: background 0.3s;
+            transition: background 1s;
         }
 
         nav a:hover, nav a.active {
